@@ -1,0 +1,33 @@
+{
+  "name": "styled-media-queries",
+  "version": "1.0.0",
+  "description": "Allows easy re-usable media queries with styled-components. 💅",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnAlbin/styled-media-queries.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "css-in-js",
+    "styled-components"
+  ],
+  "author": "John Albin Wilkins <virtually.johnalbin@gmail.com> (http://john.albin.net/)",
+  "license": "(MIT OR GPL-2.0)",
+  "bugs": {
+    "url": "https://github.com/JohnAlbin/styled-media-queries/issues"
+  },
+  "homepage": "https://github.com/JohnAlbin/styled-media-queries#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^13.0.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-0",
+    "styled-components": "^2.0.0"
+  }
+}
