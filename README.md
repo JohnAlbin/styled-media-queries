@@ -1,4 +1,4 @@
-# Styled Media Queries: media queries for `styled-components`
+# Styled Media Queries:<br> <small><em>media queries for `styled-components`</em> 💅</small>
 
 The `mediaQuery` function provided by this module extends [Styled Components](https://www.styled-components.com), giving it **a helper for managing media queries**.
 
@@ -7,7 +7,7 @@ The `mediaQuery` function provided by this module extends [Styled Components](ht
 Here's a quick example:
 
 1. Start by defining your globally-shared media queries. We'll use a static JavaScript object to do this and we will use variable names of our own choosing.
-  ```JS
+```JS
 // sharedFile.js
 
 /* You could also name this object "respondTo", "atMedia", "nomNoms", etc. */
@@ -20,7 +20,7 @@ export const media = {
 };
 ```
 2. Then import the `styled-media-queries` module and use it define the media query "features" we want for each name.
-  ```JS
+```JS
 // sharedFile.js
 import { mediaQuery } from 'styled-media-queries';
 
@@ -42,7 +42,7 @@ export const media = {
 };
 ```
 3. Once we've defined our re-usable media queries, `media.smallOnly` and its siblings are now functions that can handle tagged template literals. Use them in any styled component that needs it.
-  ```JS
+```JS
 import styled from 'styled-components';
 import { media } from './sharedFile.js';
 
