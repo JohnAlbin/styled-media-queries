@@ -1,6 +1,6 @@
 {
   "name": "styled-media-queries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows easy re-usable media queries with styled-components. 💅",
   "main": "index.js",
   "scripts": {
