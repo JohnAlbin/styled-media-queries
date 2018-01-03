@@ -8,6 +8,11 @@ import { css } from 'styled-components'
  *   query features.
  */
 
-const mediaQuery = (...query) => (...rules) => css`@media ${css(...query)} { ${css(...rules)} }`
+const mediaQuery = (...query) => (...rules) => css`
+  @media ${css`${query}`} {
+    ${css`${rules}`};
+  }
+`;
+
 
 export { mediaQuery }
